@@ -1,0 +1,8 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Fri Oct 17 12:15:43 2014
+
+drc -z four_bit_binary_adder_subtractor.ncd four_bit_binary_adder_subtractor.pcf
+
+DRC detected 0 errors and 0 warnings.

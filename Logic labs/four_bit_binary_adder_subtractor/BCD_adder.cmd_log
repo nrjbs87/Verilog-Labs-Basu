@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_binary_adder_subtractor.ucf -p xc6slx16-csg324-3 "BCD_adder.ngc" BCD_adder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_bit_binary_adder_subtractor.ucf -p xc6slx16-csg324-3 "BCD_adder.ngc" BCD_adder.ngd  
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.xst" -ofn "X:/Desktop/Logic labs/four_bit_binary_adder_subtractor/BCD_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BCD_adder.ucf -p xc6slx16-csg324-3 "BCD_adder.ngc" BCD_adder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o BCD_adder_map.ncd BCD_adder.ngd BCD_adder.pcf 
+par -w -intstyle ise -ol high -mt off BCD_adder_map.ncd BCD_adder.ncd BCD_adder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml BCD_adder.twx BCD_adder.ncd -o BCD_adder.twr BCD_adder.pcf -ucf BCD_adder.ucf 
+bitgen -intstyle ise -f BCD_adder.ut BCD_adder.ncd 

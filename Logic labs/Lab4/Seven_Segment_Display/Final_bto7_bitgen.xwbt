@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Desktop\Logic labs\Lab4\Seven_Segment_Display\Final_bto7.ncd
+OUTFILE=X:\Desktop\Logic labs\Lab4\Seven_Segment_Display\Final_bto7.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=X:\Desktop\Logic labs\Lab4\Seven_Segment_Display
+LICENSE=ISE
+USER_INFO=174135685_174135686_210570941_745

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\Desktop\Logic labs\Lab5\VGA_controller_lab\impact.xsl
+OUTFILE=X:\Desktop\Logic labs\Lab5\VGA_controller_lab\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=X:\Desktop\Logic labs\Lab5\VGA_controller_lab
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/seven_seg_disoplay_test_isim_beh.exe" -prj "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/seven_seg_disoplay_test_beh.prj" "work.seven_seg_disoplay_test" "work.glbl" 

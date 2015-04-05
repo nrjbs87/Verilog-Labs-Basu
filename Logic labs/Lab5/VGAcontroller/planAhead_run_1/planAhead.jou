@@ -1,0 +1,112 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Sun Dec 14 12:24:10 2014
+# Process ID: 6016
+# Log file: X:/Desktop/Logic labs/Lab5/VGAcontroller/planAhead_run_1/planAhead.log
+# Journal file: X:/Desktop/Logic labs/Lab5/VGAcontroller/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {X:/Desktop/Logic labs/Lab5/VGAcontroller/pa.fromHdl.tcl}
+startgroup
+set_property package_pin A8 [get_ports up]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports down]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports left]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports HS]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports right]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+set_property package_pin "" [get_ports [list  {R_control[0]}]]
+startgroup
+set_property package_pin T5 [get_ports {R_control[0]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {R_control[1]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {R_control[2]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {R_control[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {R_control[1]}]]
+set_property package_pin "" [get_ports [list  {R_control[0]}]]
+set_property package_pin "" [get_ports [list  {R_control[2]}]]
+set_property package_pin "" [get_ports [list  {R_control[0]}]]
+startgroup
+set_property package_pin T5 [get_ports {R_control[2]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {R_control[1]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {R_control[0]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {R_control[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {G_control[2]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {G_control[1]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {G_control[0]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {B_control[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B_control[0]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B_control[0]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {anode[0]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {anode[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {anode[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {anode[3]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {seven[0]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {seven[1]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {seven[2]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {seven[3]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {seven[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {seven[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {seven[6]}]
+endgroup
+save_design

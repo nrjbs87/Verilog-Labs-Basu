@@ -1,0 +1,3 @@
+verilog work "xor.v"
+verilog work "Full_Adder.v"
+verilog work "four_bit_binary_adder_subtractor.v"

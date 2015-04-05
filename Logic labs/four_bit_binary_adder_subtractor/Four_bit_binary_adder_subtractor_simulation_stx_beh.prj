@@ -1,0 +1,5 @@
+verilog isim_temp "xor.v"
+verilog isim_temp "Full_Adder.v"
+verilog isim_temp "four_bit_binary_adder_subtractor.v"
+verilog isim_temp "Four_bit_binary_adder_subtractor_simulation.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

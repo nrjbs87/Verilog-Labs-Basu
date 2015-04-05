@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Fri Dec 05 15:42:18 2014
+# Process ID: 5360
+# Log file: X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/planAhead_run_1/planAhead.log
+# Journal file: X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -4 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/pa.fromNetlist.tcl}
+# create_project -name Seven_Segment_Display -dir "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [C:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {X:/Desktop/Logic labs/Lab4/Seven_Segment_Display} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Final_bto7.ucf" [current_fileset -constrset]
+Adding file 'X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.ucf' to fileset 'constrs_1'
+# add_files [list {Final_bto7.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Final_bto7.ngc ...
+WARNING:NetListWriters:298 - No output is written to Final_bto7.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Final_bto7.edif ...
+ngc2edif: Total memory usage is 79960 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Seven_Segment_Display.data/cache/Final_bto7_ngc_2eaf7083.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Seven_Segment_Display.data/cache/Final_bto7_ngc_2eaf7083.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.ucf]
+Finished Parsing UCF File [X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUFG, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 822dcd6d
+link_design: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 561.113 ; gain = 144.512
+set_property package_pin "" [get_ports [list  {seven[0]}]]
+set_property package_pin "" [get_ports [list  {seven[1]}]]
+startgroup
+set_property package_pin T18 [get_ports {seven[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {seven[6]}]]
+set_property package_pin "" [get_ports [list  {seven[5]}]]
+set_property package_pin "" [get_ports [list  {seven[4]}]]
+set_property package_pin "" [get_ports [list  {seven[3]}]]
+set_property package_pin "" [get_ports [list  {seven[2]}]]
+startgroup
+set_property package_pin T17 [get_ports {seven[0]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {seven[1]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {seven[2]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {seven[3]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {seven[4]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {seven[5]}]
+endgroup
+save_design
+startgroup
+set_property package_pin L14 [get_ports {seven[6]}]
+endgroup
+save_design
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

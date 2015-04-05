@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/seven_seg_disoplay_test_isim_beh.exe -prj X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/seven_seg_disoplay_test_beh.prj work.seven_seg_disoplay_test work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../MtoHCLK.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../Debouncer.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../mux_2x1.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../KHZ_clock_divider.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../Counter.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../seven_segment_driver.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../Backtosevendisplay.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../Final_bto7.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/../seven_seg_disoplay_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Debouncer
+Compiling module MtoHCLK
+Compiling module mux_2x1
+Compiling module Counter
+Compiling module KHZ_clock_divider
+Compiling module seven_segment_driver
+Compiling module Backtosevendisplay
+Compiling module Final_bto7
+Compiling module seven_seg_disoplay_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/seven_seg_disoplay_test_isim_beh.exe
+Fuse Memory Usage: 27508 KB
+Fuse CPU Usage: 779 ms

@@ -1,0 +1,6 @@
+verilog work "clk_divider16.v"
+verilog work "../../../../Downloads/vga_controller_640_60.v"
+verilog work "seven_alternate.v"
+verilog work "Bin_to_Seg.v"
+verilog work "BCDconverter.v"
+verilog work "../../../../Downloads/vga_display.v"

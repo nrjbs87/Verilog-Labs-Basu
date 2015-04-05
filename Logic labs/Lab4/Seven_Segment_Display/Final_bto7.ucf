@@ -1,0 +1,22 @@
+
+
+NET "button" LOC = B8;
+NET "clock" LOC = V10;
+NET "reset" LOC = C4;
+NET "trigger" LOC = T10;
+
+
+NET "AN[0]" LOC = N16;
+NET "AN[1]" LOC = N15;
+NET "AN[2]" LOC = P18;
+NET "AN[3]" LOC = P17;
+
+# PlanAhead Generated physical constraints 
+
+NET "seven[0]" LOC = T17;
+NET "seven[1]" LOC = T18;
+NET "seven[2]" LOC = U17;
+NET "seven[3]" LOC = U18;
+NET "seven[4]" LOC = M14;
+NET "seven[5]" LOC = N14;
+NET "seven[6]" LOC = L14;

@@ -1,0 +1,28 @@
+Command line:
+   Eight_bit_counter_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60993
+
+Fri Nov 14 12:40:56 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 826.249 Meg
+
+ Total Signals          : 18
+ Total Nets             : 25
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 116
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 826.249 Meg
+
+Fri Nov 14 12:45:21 2014
+

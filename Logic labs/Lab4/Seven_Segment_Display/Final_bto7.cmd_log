@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.xst" -ofn "X:/Desktop/Logic labs/Lab4/Seven_Segment_Display/Final_bto7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Final_bto7.ucf -p xc6slx16-csg324-3 "Final_bto7.ngc" Final_bto7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Final_bto7_map.ncd Final_bto7.ngd Final_bto7.pcf 
+par -w -intstyle ise -ol high -mt off Final_bto7_map.ncd Final_bto7.ncd Final_bto7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Final_bto7.twx Final_bto7.ncd -o Final_bto7.twr Final_bto7.pcf -ucf Final_bto7.ucf 
+bitgen -intstyle ise -f Final_bto7.ut Final_bto7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Final_bto7.ucf -p xc6slx16-csg324-3 "Final_bto7.ngc" Final_bto7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Final_bto7_map.ncd Final_bto7.ngd Final_bto7.pcf 
+par -w -intstyle ise -ol high -mt off Final_bto7_map.ncd Final_bto7.ncd Final_bto7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Final_bto7.twx Final_bto7.ncd -o Final_bto7.twr Final_bto7.pcf -ucf Final_bto7.ucf 
+bitgen -intstyle ise -f Final_bto7.ut Final_bto7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Final_bto7.ucf -p xc6slx16-csg324-3 "Final_bto7.ngc" Final_bto7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Final_bto7_map.ncd Final_bto7.ngd Final_bto7.pcf 
+par -w -intstyle ise -ol high -mt off Final_bto7_map.ncd Final_bto7.ncd Final_bto7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Final_bto7.twx Final_bto7.ncd -o Final_bto7.twr Final_bto7.pcf -ucf Final_bto7.ucf 
+bitgen -intstyle ise -f Final_bto7.ut Final_bto7.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Final_bto7.ucf -p xc6slx16-csg324-3 "Final_bto7.ngc" Final_bto7.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Final_bto7_map.ncd Final_bto7.ngd Final_bto7.pcf 
+par -w -intstyle ise -ol high -mt off Final_bto7_map.ncd Final_bto7.ncd Final_bto7.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Final_bto7.twx Final_bto7.ncd -o Final_bto7.twr Final_bto7.pcf -ucf Final_bto7.ucf 
+bitgen -intstyle ise -f Final_bto7.ut Final_bto7.ncd 

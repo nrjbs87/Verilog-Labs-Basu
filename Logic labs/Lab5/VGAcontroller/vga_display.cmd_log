@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display.ngc" vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display.ngc" vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
+xst -intstyle ise -ifn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.xst" -ofn "X:/Desktop/Logic labs/Lab5/VGAcontroller/vga_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "vga_display.ngc" vga_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_display_map.ncd vga_display.ngd vga_display.pcf 
