@@ -1,0 +1,6 @@
+verilog work "Four_Bit_Adder.v"
+verilog work "my_mux.v"
+verilog work "Four_bit_Multipler.v"
+verilog work "Buffer.v"
+verilog work "BCD_Adder.v"
+verilog work "ALU.v"

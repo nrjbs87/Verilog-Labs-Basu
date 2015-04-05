@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o X:/Desktop/Logic labs/Lab2/ALUtestbench_isim_beh.exe -prj X:/Desktop/Logic labs/Lab2/ALUtestbench_beh.prj work.ALUtestbench work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/Four_Bit_Adder.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/my_mux.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/Four_bit_Multipler.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/Buffer.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/BCD_Adder.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/ALU.v" into library work
+Analyzing Verilog file "X:/Desktop/Logic labs/Lab2/ALUtestbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "X:/Desktop/Logic labs/Lab2/ALU.v" Line 31: Target <C> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:189 - "X:/Desktop/Logic labs/Lab2/BCD_Adder.v" Line 36: Size mismatch in connection of port <S>. Formal port size is 8-bit while actual signal size is 4-bit.
+Completed static elaboration
+Compiling module Buffer
+Compiling module four_bit_binary_adder_subtractor
+Compiling module BCD_adder
+Compiling module Four_bit_Multipler
+Compiling module my_mux
+Compiling module ALU
+Compiling module ALUtestbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 8 Verilog Units
+Built simulation executable X:/Desktop/Logic labs/Lab2/ALUtestbench_isim_beh.exe
+Fuse Memory Usage: 27628 KB
+Fuse CPU Usage: 748 ms

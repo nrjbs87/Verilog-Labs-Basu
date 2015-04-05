@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Fri Nov 07 13:36:29 2014
+# Process ID: 5616
+# Log file: X:/Desktop/Logic labs/Lab2/planAhead_run_1/planAhead.log
+# Journal file: X:/Desktop/Logic labs/Lab2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {X:/Desktop/Logic labs/Lab2/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin T11 [get_ports {Y[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {Y[6]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Y[5]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Y[4]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {Y[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {Y[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {Y[1]}]
+endgroup
+save_design
